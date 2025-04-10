@@ -1,0 +1,171 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  .app-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #eff1f5;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1e293b;
+  }
+  
+  .products h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .product-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+  }
+  
+  .product-card {
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 160px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .product-card h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .product-card button {
+    margin-top: 0.5rem;
+    padding: 6px 12px;
+    background-color: #1e9ae2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .cart-summary {
+    margin-top: 2rem;
+  }
+  
+  .subtotal {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background-color: #f8fafc;
+  }
+  
+  .cart-controls button {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cart-controls span {
+    font-weight: bold;
+  }
+  
+  .gift-badge {
+    background-color: #22c55e;
+    padding: 6px 12px;
+    border-radius: 9999px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .progress-box {
+    margin-top: 1rem;
+    background-color: #f1f5f9;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .progress-text {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #0f172a;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #3b82f6;
+    transition: width 0.3s ease-in-out;
+  }
+  .empty-cart {
+    text-align: center;
+    padding: 0.5rem;
+    color: #6b7280;
+    font-style: bold;
+  }
+
+  .empty-carts {
+    text-align: center;
+    color: #6b7280;
+    font-style: bold;
+  }
+
+  .cart-summary-details{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+  }
+  .horizon{
+    color:black;
+    width: 62vw;
+    border-radius: 9999px;
+  }
+  .head{
+    text-align:left;
+    font-size:20px;
+    font-weight:bold;
+  }
+  .para{
+    text-align:left;
+    font-size:15px;
+    font-weight:normal;
+
+  }
+  .cart-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+  }
